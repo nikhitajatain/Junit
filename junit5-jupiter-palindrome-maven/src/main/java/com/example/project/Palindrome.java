@@ -12,16 +12,18 @@ package com.example.project;
 
 import org.apache.commons.lang3.StringUtils;
 
-class Palindrome {
-	
+public class Palindrome {
+
 	public boolean truePalindrome(String args) {
 		return true;
 	}
-	
+
 	public static boolean checkPalindrome(String mnk) {
 		String reversedString = StringUtils.reverse(mnk);
 
-        return mnk.equals(reversedString);
-		
+		// String reversedString = "Nikhita";
+
+		return mnk.equals(reversedString);
+
 	}
 }

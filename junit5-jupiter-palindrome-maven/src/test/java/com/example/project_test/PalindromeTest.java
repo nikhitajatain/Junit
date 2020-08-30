@@ -1,4 +1,4 @@
-package com.example.project;
+package com.example.project_test;
 
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
@@ -8,11 +8,13 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ValueSource;
 
+import com.example.project.Palindrome;
+
 class PalindromeTest {
 	//private final Palindrome pal = new Palindrome();
 
 	@ParameterizedTest
-	@ValueSource(strings = { "abcdcba", "nmam" })
+	@ValueSource(strings = { "abcdcba", "nmamn" })
 	void palindromeCheckTest(String nik) {
 		boolean answer = Palindrome.checkPalindrome(nik); 
 		

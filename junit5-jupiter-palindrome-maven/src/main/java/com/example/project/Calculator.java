@@ -1,6 +1,6 @@
 package com.example.project;
 
-class Calculator {
+public class Calculator {
 
 	private int[] history = new int[5];
 	private int counter = 0;

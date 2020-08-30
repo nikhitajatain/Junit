@@ -1,4 +1,4 @@
-package com.example.project;
+package com.example.project_test;
 
 import java.util.stream.Stream;
 
@@ -9,7 +9,9 @@ import org.junit.jupiter.params.provider.CsvSource;
 import org.junit.jupiter.params.provider.MethodSource;
 import org.junit.jupiter.params.provider.ValueSource;
 
-public class CalculatorTest {
+import com.example.project.Calculator;
+
+class CalculatorTest {
 	
 	static Stream<TwoArray> arrayProvider() {
 		int [] num1= {1, 2, 3, 4, 5};
